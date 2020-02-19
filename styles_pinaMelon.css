@@ -1,5 +1,6 @@
 html{
     background-color: rgb(255, 214, 221);
+    height: 98%;
 }
 body{
     width: 75%;
@@ -20,14 +21,27 @@ h1{
 div.row{
     clear: both;
 }
+.col-1-6{
+    float: left;
+    width: 16%;
+    text-align: center;
+}
+div#nav a{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    vertical-align: auto;
+}
 
 a{
     color: white;
     text-decoration: none;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     float: left;
-
 }
 div#flavors p{
     text-align: left;
@@ -43,6 +57,7 @@ img{
     height: 100px;
     width: 100px;
 }
+
 div#nav a:hover{
     background-color: rgba(255, 217, 0, 0.397);
 }
