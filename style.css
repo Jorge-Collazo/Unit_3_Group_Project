@@ -1,3 +1,5 @@
-.div#col-1-6{
+@charset "utf-8";
+
+div.col-1-6{
     width: 16%;
 }

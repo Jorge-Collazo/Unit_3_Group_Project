@@ -1,0 +1,67 @@
+html{
+    background-color: rgb(255, 214, 221);
+}
+body{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 115, 138);
+    color: white;
+    height: 100%;
+}
+h1{
+    color: white;
+}
+.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+div.row{
+    clear: both;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: left;
+
+}
+div#flavors p{
+    text-align: left;
+}
+div#nav{
+    text-align: center;
+}
+div#flavors{
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+div#nav a:hover{
+    background-color: rgba(255, 217, 0, 0.397);
+}
+div#img a:hover{
+    background-color: rgb(255, 115, 138);
+}
+
+div#s a:hover{
+    background-color: rgba(255, 0, 0, 0.685);
+}
+div#t a:hover{
+    background-color: rgba(253, 120, 10, 0.815);
+}
+div#p a:hover{
+    background-color: rgba(255, 217, 0, 0.397);
+}
+div#b a:hover{
+    background-color: rgba(35, 123, 255, 0.521);
+}
+div#l a:hover{
+    background-color: rgba(0, 255, 0, 0.486);
+}
