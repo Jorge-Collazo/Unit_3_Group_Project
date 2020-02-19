@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flavored Ice Cubes</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="roseButtons.js" defer></script>
 </head>
 <body>
 
-    <div class="row" id="title"><a href="index.html"><img src="nicedude.png" alt="nicedude"></img></a></div>
+    <div class="row" id="title"><a href="index.html"><img src="nicedude.png" alt="nicedude" width="100px" height="100px"></img></a></div>
 
     <div class="row" id="nav">
         <div class="col-1-5"><a href="flavors.html">Flavors</a></div>
@@ -19,6 +19,9 @@
         <div class="col-4-5"><a href="reviews.html">Reviews</a></div>
         <div class="col-5-5"><a href="nutrition.html">Nutrition</a></div>
     </div>
-    
+    <button type="button" onClick = "changeBg('black')">Black</button>
+    <button type="button" onClick = "changeBg('blue')">Blue</button>
+    <button type="button" onClick = "changeBg('navy')">Navy</button>
+    <button type="button" onClick = "changeBg('darkBlue')">Dark Blue</button>
 </body>
 </html>
