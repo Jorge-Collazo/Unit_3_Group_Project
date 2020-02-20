@@ -303,6 +303,9 @@
             rgb(255, 128, 128), rgb(255, 138, 138), rgb(255, 148, 148), rgb(255, 158, 158), rgb(255, 168, 168));
         animation: strawberry infinite 5s forwards;
     }
+    #sB:hover a{
+        color:white;
+    }
 
 /*Pinacolada Watermelon animations*/
 
@@ -609,6 +612,9 @@
             rgb(215, 130, 0), rgb(225, 140, 0), rgb(235, 150, 0), rgb(245, 160, 0), rgb(255, 170, 0));
         animation: tea infinite 5s forwards;
     }
+    #tea:hover a{
+        color: white;
+    }
 
 /*Blue Rasberry animations*/
 
@@ -761,4 +767,7 @@
             rgb(34, 42, 168),rgb(44, 42, 178), rgb(54, 52, 188), rgb(64, 62, 198), rgb(74, 72, 208), rgb(84, 82, 218), 
             rgb(94, 92, 228), rgb(104, 102, 238), rgb(114, 112, 248), rgb(124, 122, 255), rgb(134, 132, 255));
         animation: blueRaspberry infinite 5s forwards;
+    }
+    #bR:hover a{
+        color: white;
     }
