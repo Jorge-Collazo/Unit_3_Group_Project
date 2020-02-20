@@ -1,17 +1,20 @@
 "use strict";
-
-
-
-function changeBg(color){
-    document.body.style.background = color;
-    document.body.style.color = "white";
+document.body.style.color = "white";
     var p = document.querySelectorAll("a");
     for (var i = 0; i < p.length; i++) {
     //p[i].style.border = "outset gray 3px";
     //p[i].style.background = "black";
-    p[i].style.color = "white";
+    p[i].style.color = "orange";
     p[i].style.fontFamily = "timesNewRoman";
     }
+    var x = document.querySelectorAll("button");
+        for (var i = 0; i < x.length; i++) {
+        x[i].style.border = "double gray 3px";
+        }
+
+function changeBg(color){
+    document.body.style.background = color;
+   
     if (color == "black"){
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
@@ -26,7 +29,7 @@ function changeBg(color){
     else if (color == "blue"){
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
-        x[i].style.border = "outset gray 3px";
+        x[i].style.border = "dotted gray 3px";
         x[i].style.background = "black";
         x[i].style.color = "white";
         x[i].style.fontFamily = "timesNewRoman";
@@ -37,7 +40,7 @@ function changeBg(color){
     else if (color == "navy"){
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
-        x[i].style.border = "outset gray 3px";
+        x[i].style.border = "ridge gray 3px";
         x[i].style.background = "black";
         x[i].style.color = "white";
         x[i].style.fontFamily = "timesNewRoman";
@@ -48,7 +51,7 @@ function changeBg(color){
     else if (color == "darkBlue"){
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
-        x[i].style.border = "outset gray 3px";
+        x[i].style.border = "none gray 3px";
         x[i].style.background = "black";
         x[i].style.color = "white";
         x[i].style.fontFamily = "timesNewRoman";
