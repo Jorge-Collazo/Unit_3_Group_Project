@@ -452,6 +452,8 @@
     }
     #pW{
         background: rgb(255, 126, 171);
+        padding-top: 7px;
+        padding-bottom: 7px;
     }
     #pW:hover{
         background: radial-gradient(rgb(255, 76, 121), rgb(255, 86, 131), rgb(255, 96, 141),
