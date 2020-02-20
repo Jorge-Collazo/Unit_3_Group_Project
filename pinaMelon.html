@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles_pinaMelon.css">
     <script src="script.js" defer></script>
+    <script src="pinaMelon.js" defer></script>
 </head>
 <body>
+    <div class="row" id="banner">
+        <h1>N-ice Dudes</h1>
+    </div>
 
     <div class="row" id="nav">
         <div class="col-1-6" id="img"><a href="index.html"><img src="nicedude.png" alt="nicedude"></img></a></div>
@@ -21,22 +25,22 @@
     </div>
 
     <div class="row">
-            <div class="col-2-3">
-                <div class="row">
-                    <!-- flavor -->
-                    <h1>Pina Colada and Watermelon</h1>
-                </div>
-                <div class="row">
-                    <!-- description -->
-                    <p></p>
-                </div>
+        <div class="col-2-3">
+            <div class="row">
+                <!-- flavor -->
+                <h2>Pina Colada and Watermelon</h2>
             </div>
-            <div class="col-1-3">
-                <!-- history -->
-                <h3>History</h3>
-                <p> </p>
+            <div class="row">
+                <!-- description -->
+                <p></p>
             </div>
         </div>
+        <div class="col-1-3">
+            <!-- history -->
+            <h3>History</h3>
+            <p> </p>
+        </div>
+    </div>
 
     <div class="row" id="flavors">
             <p>Top 5 Flavors</p>
@@ -44,11 +48,14 @@
             <div class="col-1-5" id="t"><a href="tea.html">tea</a></div>
             <div class="col-1-5" id="p"><a href="pinaMelon.html">Pina Colada and Watermelon</a></div>
             <div class="col-1-5" id="b"><a href="blueRaspberry.html">Blue Raspberry</a></div>
-            <div class="col-1-5" id="l"><a href="lime.html">lime</a></div>
+            <div class="col-1-5" id="l"><a href="lemon.html">lemon</a></div>
         </div>
         
     <div class="row">
-        <!-- footer -->
+        <button type="button" onClick = "changeBg('strawberry')">Strawberry</button>
+        <button type="button" onClick = "changeBg('tea')">Tea</button>
+        <button type="button" onClick = "changeBg('blueRaspberry')">Blue Raspberry</button>
+        <button type="button" onClick = "changeBg('lemon')">Lemon</button>
     </div>
     
 </body>

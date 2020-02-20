@@ -1,34 +1,23 @@
+@charset "utf-8";
+
 html{
-    background-color: rgb(255, 214, 221);
-    height: 98%;
-    background: url(watermelon_pina_colada_.png);
-    background-size: auto;
+    background: ;
+    height: 100%;
 }
 body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background-color: rgb(255, 115, 138);
-    color: white;
-
+    background: ;
 }
-
 a{
     text-decoration: none;
     color: black;
-    background-color: white;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-a:first-of-type{
-    background-color: rgb(255, 115, 138);
 }
 img{
     height: 100px;
     width: 100px;
-
 }
-   
 .row::after{
     clear: both;
     content: "";
