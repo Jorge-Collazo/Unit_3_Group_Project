@@ -6,22 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flavored Ice Cubes</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles_blueRasp.css"/>
     <script src="roseButtons.js" defer></script>
 </head>
 <body>
-
-    <div class="row" id="title"><a href="index.html"><img src="nicedude.png" alt="nicedude" width="100px" height="100px"></img></a></div>
+    <div class="row" id="banner">
+        <h1>N-ice Dude</h1>
+    </div>
 
     <div class="row" id="nav">
-        <div class="col-1-5"><a href="flavors.html">Flavors</a></div>
-        <div class="col-2-5"><a href="science.html">Science</a></div>
-        <div class="col-3-5"><a href="shoppingCart.html">Cart</a></div>
-        <div class="col-4-5"><a href="reviews.html">Reviews</a></div>
-        <div class="col-5-5"><a href="nutrition.html">Nutrition</a></div>
+        <div class="col-1-6"><a href="index.html"><img src="nicedude.png" id="logo" alt="nicedude"></img></a></div>
+        <div class="col-1-6" id="link"><a href="flavors.html">Flavors</a></div>
+        <div class="col-1-6" id="link"><a href="science.html">Science</a></div>
+        <div class="col-1-6" id="link"><a href="shoppingCart.html">Cart</a></div>
+        <div class="col-1-6" id="link"><a href="reviews.html">Reviews</a></div>
+        <div class="col-1-6" id="link"><a href="nutrition.html">Nutrition</a></div>
     </div>
-    <button type="button" onClick = "changeBg('black')">Black</button>
-    <button type="button" onClick = "changeBg('blue')">Blue</button>
-    <button type="button" onClick = "changeBg('navy')">Navy</button>
-    <button type="button" onClick = "changeBg('darkBlue')">Dark Blue</button>
+    
+    <div class="row">
+        <div class="col-2-3">
+            <div class="row">
+                <!-- flavor -->
+                <h2>Blue-Raspberry</h2>
+            </div>
+            <div class="row">
+                <!-- description -->
+                <p>
+                    This cool and exciting flavor is here to make your drink more exciting. With each sip, bring
+                    flavor to your taste buds with N-ice Dude&copy; flavored ice. 
+                </p>
+            </div>
+        </div>
+        <div class="col-1-3">
+            <!-- history -->
+            <h3>History</h3>
+            <p>
+                Blue raspberry is a new flavor than has been a top favourite since. The 
+                inspiration came from seeing many candies with similar flavors. Using natural flavors,
+                blue raspberry has become one of our favorite flavors and is available at
+                any store where N-ice Dude flavored ice is sold. You can use . No matter how 
+                you choose to enjoy N-ice Dude flavored ice, blue raspberry is sure to become one of your favourite flavors.
+            </p>
+        </div>
+    </div>
+
+    <div class="row" id="flavors">
+        <!-- top flavors nav -->
+        <nav>
+            <div class="col-1-5">
+                <div class="row"><a href="strawberry.html">Strawberry</a></div>
+            </div>
+            <div class="col-1-5">
+                <div class="row"><a href="tea.html">Tea</a></div>
+            </div>
+            <div class="col-1-5" id="pina">
+                <div class="row"><a href="pinaMelon.html">Pina Colada and Watermelon</a></div>
+            </div>
+            <div class="col-1-5">
+                <div class="row"><a href="blueRaspberry.html">Blue Raspberry</a></div>
+            </div>
+            <div class="col-1-5">
+                <div class="row"><a href="lemon.html">Lemon</a></div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="row" id="footer">
+        <!-- footer -->
+        <p>This is for the footer God knows what's going here</p>
+    </div>
+    <button type="button" onClick = "changeStyle('black')">Black</button>
+    <button type="button" onClick = "changeStyle('blue')">Blue</button>
+    <button type="button" onClick = "changeStyle('navy')">Navy</button>
+    <button type="button" onClick = "changeStyle('darkBlue')">Dark Blue</button>
 </body>
 </html>
