@@ -74,9 +74,13 @@ div.row{
     font-size: 24pt;
 }
 .col-2-3 h2{
-    font-size: 40pt;
-    margin-left: 12px;
+    font-size: 70pt;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 10px;
     font-family: 'Lobster', cursive;
+    margin: 0px;
 }
 .col-2-3 p{
     margin-left: 12px;
@@ -117,7 +121,7 @@ section#history{
 }
 div#banner{
     text-align: center;
-    font-size: 30pt;
+    font-size: 40pt;
     background: url(ice_banner.png) no-repeat;
 }
 div#footer{
