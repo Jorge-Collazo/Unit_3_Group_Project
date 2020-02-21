@@ -135,8 +135,6 @@ button#b1{
     border-radius: 25px;
     color: black;
     font-size: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
 }
@@ -147,8 +145,6 @@ button#b2{
     border-radius: 25px;
     color: black;
     font-size: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
 }
@@ -159,8 +155,6 @@ button#b3{
     border-radius: 25px;
     color: black;
     font-size: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
 }
@@ -171,8 +165,6 @@ button#b4{
     border-radius: 25px;
     color: black;
     font-size: 15px;
-    padding-left: 45px;
-    padding-right: 45px;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
 }
