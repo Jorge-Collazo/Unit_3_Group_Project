@@ -1,7 +1,11 @@
 @charset "utf-8";
 
 html{
-    background: url("blue_rasp.jpg") no-repeat rgba(1, 30, 73, 0.945);
+<<<<<<< Updated upstream
+    background: url("blueraspberries.png") no-repeat rgba(1, 30, 73, 0.945);
+=======
+    background: url("blue_rasp.jpg") no-repeat rgb(0, 15, 151);
+>>>>>>> Stashed changes
     background-size: cover;
     height: 100%;
 }
@@ -11,6 +15,10 @@ body{
     margin-left: auto;
     background: rgb(60, 89, 255);
     color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    border: double gray 3px;
 }
 a{
     text-decoration: none;

@@ -1,11 +1,5 @@
 "use strict";
-    var p = document.querySelectorAll("a");
-    for (var i = 0; i < p.length; i++) {
-    //p[i].style.border = "outset gray 3px";
-    //p[i].style.background = "black";
-    //p[i].style.color = "orange";
-    p[i].style.fontFamily = "timesNewRoman";
-    }
+    
     var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
         x[i].style.border = "double gray 3px";
@@ -25,6 +19,9 @@ function changeStyle(color){
         x[0].style.background = "white";
         x[0].style.color = "black";
         document.getElementById("flavors").style.border = "outset gray 3px";
+        document.getElementById("nav").style.border = "outset gray 3px";
+        document.getElementById("history").style.border = "outset gray 3px";
+        document.getElementById("info").style.border = "outset gray 3px";
     }
     else if (color == "blue"){
         var x = document.querySelectorAll("button");
@@ -37,6 +34,9 @@ function changeStyle(color){
         x[1].style.background = "white";
         x[1].style.color = "black";
         document.getElementById("flavors").style.border = "dotted gray 3px";
+        document.getElementById("nav").style.border = "dotted gray 3px";
+        document.getElementById("history").style.border = "dotted gray 3px";
+        document.getElementById("info").style.border = "dotted gray 3px";
     }
     else if (color == "navy"){
         var x = document.querySelectorAll("button");
@@ -49,8 +49,11 @@ function changeStyle(color){
         x[2].style.background = "white";
         x[2].style.color = "black";
         document.getElementById("flavors").style.border = "ridge gray 3px";
+        document.getElementById("nav").style.border = "ridge gray 3px";
+        document.getElementById("history").style.border = "ridge gray 3px";
+        document.getElementById("info").style.border = "ridge gray 3px";
     }
-    else if (color == "darkBlue"){
+    else if (color == "royalBlue"){
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
         x[i].style.border = "inset gray 3px";
@@ -61,6 +64,9 @@ function changeStyle(color){
         x[3].style.background = "white";
         x[3].style.color = "black";
         document.getElementById("flavors").style.border = "inset gray 3px";
+        document.getElementById("nav").style.border = "inset gray 3px";
+        document.getElementById("history").style.border = "inset gray 3px";
+        document.getElementById("info").style.border = "inset gray 3px";
     }
     
 }
