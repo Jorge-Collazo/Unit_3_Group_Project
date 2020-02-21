@@ -6,7 +6,7 @@ html{
     background-color: red;
     height: 100%;
     font-family: 'Signika', sans-serif;
-    
+    border-radius: 25px;
 }
 body{
     width: 75%;
@@ -15,6 +15,7 @@ body{
     background: rgb(255, 200, 200);
     box-shadow: 50px 0px 25px rgba(0,0,0,0.5),
                 -50px 0px 25px rgba(0,0,0,0.5);
+    border-radius: 25px;
 }
 h1{
     margin: 0px;
@@ -60,6 +61,7 @@ div.row{
     background-color: red;
 }
 .col-1-6:hover{
+    animation: shine 1.2s;
     background-color: rgb(255, 97, 97);
 }
 
@@ -129,4 +131,7 @@ div#banner{
 }
 div#footer{
     text-align: center;
+}
+#butt{
+    padding-left: 10px;
 }
