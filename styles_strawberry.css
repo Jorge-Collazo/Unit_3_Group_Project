@@ -62,7 +62,6 @@ div.row{
 }
 .col-1-6:hover{
     animation: shine 1.2s;
-    background-color: rgb(255, 97, 97);
 }
 
 /* flavor and desc */
