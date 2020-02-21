@@ -4,6 +4,7 @@ html{
     background: url("lemons.png") no-repeat rgba(252, 255, 77, 0.945);
     background-size: cover;
     height: 100%;
+    width: 100%;
     font-family: 'Signika', sans-serif;
 }
 body{
@@ -52,7 +53,7 @@ div.row{
     padding-top: 38px;
 }
 .col-1-6:hover{
-    animation: shine 1.4s;
+    animation: shine 1.2s;
 }
 #nav{
     background-color: rgb(255, 255, 0);
@@ -133,8 +134,6 @@ button#b1{
     height: 40px;
     margin: 10px;
     border-radius: 25px;
-   /* background: linear-gradient(45deg, rgb(255, 255, 0), rgb(255, 255, 30), rgb(255, 255, 60),rgb(255, 255, 90), rgb(255, 255, 120));*/
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
     color: black;
     font-size: 35px;
     padding-left: 45px;
@@ -146,8 +145,6 @@ button#b2{
     height: 40px;
     margin: 10px;
     border-radius: 25px;
-    /*background: linear-gradient(45deg, rgb(255, 255, 120), rgb(255, 255, 0), rgb(255, 255, 30), rgb(255, 255, 60), rgb(255, 255, 90));*/
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5));
     color: black;
     font-size: 35px;
     padding-left: 45px;
@@ -159,8 +156,6 @@ button#b3{
     height: 40px;
     margin: 10px;
     border-radius: 25px;
-    /*background: linear-gradient(45deg, rgb(255, 255, 90), rgb(255, 255, 120), rgb(255, 255, 0), rgb(255, 255, 30), rgb(255, 255, 60));*/
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(255, 255,255, 0), rgb(255, 255, 255, 0.2),rgb(255, 255, 255, 0.3), rgba(255, 255, 255, 0.4));
     color: black;
     font-size: 35px;
     padding-left: 45px;
@@ -172,8 +167,6 @@ button#b4{
     height: 40px;
     margin: 10px;
     border-radius: 25px;
-    /*background: linear-gradient(45deg, rgb(255, 255, 60), rgb(255, 255, 90), rgb(255, 255, 120), rgb(255, 255, 0), rgb(255, 255, 30));*/
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.5) ,rgba(255, 255,255, 0), rgb(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3));
     color: black;
     font-size: 35px;
     padding-left: 45px;
