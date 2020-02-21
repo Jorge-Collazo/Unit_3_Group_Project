@@ -9,8 +9,13 @@ body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background: rgb(60, 89, 255);
+    background: royalBlue;
     color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    border: double gray 3px;
+    height: 20px;
 }
 a{
     text-decoration: none;
@@ -97,4 +102,17 @@ div#banner{
 }
 div#footer{
     text-align: center;
+}
+/* starting */ 
+#flavors{
+    border: inset gray 3px;
+}
+#nav{
+    border: inset gray 3px;
+}
+#history{
+    border: inset gray 3px;
+}
+#info{
+    border: inset gray 3px;
 }
