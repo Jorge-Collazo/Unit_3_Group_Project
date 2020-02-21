@@ -52,6 +52,9 @@ div.row{
     font-size: 20pt;
     margin-right: 7px;
 }
+.col-1-6:hover{
+    animation: shine 1.4s;
+}
 .col-1-6#link{
     padding-bottom: 38px;
     padding-top: 43px;
