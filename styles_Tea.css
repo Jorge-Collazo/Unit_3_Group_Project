@@ -12,6 +12,7 @@ body{
     background: #CCCA1A;
     box-shadow: 50px 0px 25px rgba(0,0,0,0.5),
                 -50px 0px 25px rgba(0,0,0,0.5);
+    /* border: 1.5px solid black; */
 }
 a{
     text-decoration: none;
