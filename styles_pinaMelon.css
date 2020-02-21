@@ -62,7 +62,7 @@ div.row{
     ;
 }
 .col-1-6:hover{
-    background-color: rgba(255, 208, 0, 0.733);
+    background-color: rgba(255, 225, 94, 0.959);
 }
 
 /* flavor and desc */
@@ -98,7 +98,7 @@ div.row{
     
 }
 section#history{
-    background: radial-gradient(white, rgba(255, 208, 0, 0.733));
+    background: radial-gradient(white, rgba(255, 208, 0, 0.897));
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
     border-width: 2px;
@@ -134,62 +134,16 @@ div#footer{
     text-align: center;
 }
 button{
-    size: 20px;
+    background: radial-gradient(white, rgba(255, 208, 0, 0.897));
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
 }
 
-button#b1{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
-}
-button#b2{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
-}
-button#b3{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
-}
-button#b4{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
+
+
+#t{
+    color: rgb(70, 104, 255);
 }
