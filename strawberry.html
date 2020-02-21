@@ -8,7 +8,7 @@
     <link href="style.css" rel="stylesheet" >
     <link href="styles_strawberry.css" rel="stylesheet"/>
     <link href="animations.css" rel="stylesheet"/>
-    <script src="script.js" defer></script>
+    <script src="strawberry_buttons.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
         <div class="col-2-3">
             <div class="row">
                 <!-- flavor -->
-                <h2>Strawberry</h2>
+                <h2 id="name">Strawberry</h2>
             </div>
             <div class="row">
                 <!-- description -->
@@ -40,6 +40,10 @@
                     for those hot summer days to keep you hydrated. With each sip, bring
                     flavor to your taste buds with N-ice Dude&copy; flavored ice. 
                 </p>
+                <button type="button" onClick = "changeStyle('Noir')">Noir</button>
+                <button type="button" onClick = "changeStyle('Azure')">Azure</button>
+                <button type="button" onClick = "changeStyle('Beach')">Beach</button>
+                <button type="button" onClick = "changeStyle('Strawberry')">Strawberry</button>
             </div>
         </div>
         <div class="col-1-3">
