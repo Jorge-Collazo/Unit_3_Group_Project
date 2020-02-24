@@ -3,11 +3,9 @@
 html{
     background: url("pina.png") no-repeat;
     background-size: cover;
-    background-color: rgb(255, 214, 221)
-    ;
+    background-color: rgb(255, 214, 221);
     height: 100%;
     font-family: 'Signika', sans-serif;
-    
 }
 body{
     width: 75%;
@@ -28,7 +26,7 @@ a{
     color: black;
 }
 #logo{
-    height: 100px;
+    height: 101px;
     width: 100px;
 }
 div{
@@ -58,8 +56,7 @@ div.row{
     padding-top: 38px;
 }
 #nav{
-    background-color: rgb(255, 115, 138)
-    ;
+    background-color: rgb(255, 115, 138);
 }
 .col-1-6:hover{
     background-color: rgba(255, 225, 94, 0.959);
@@ -122,6 +119,7 @@ section#history{
 div#pW{
     padding-top: 7px;
     padding-bottom: 6px;
+    height: 76px;
 }
 div#banner{
     text-align: center;
@@ -140,10 +138,4 @@ button{
     border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
-}
-
-
-
-#t{
-    color: rgb(70, 104, 255);
 }
