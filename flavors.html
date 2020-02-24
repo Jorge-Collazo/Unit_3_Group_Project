@@ -6,36 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flavored Ice Cubes</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="flavors.css">
+    <script src="flavors.js" defer></script>
 </head>
 <body>
+    <div class="row" id="banner">
+            <h1>N-ice Dude</h1>
+    </div>
 
     <div class="row" id="nav">
-        <div class="col-1-6"><a href="index.html"><img src="nicedude.png" alt="nicedude"></img></a></div>
-        <div class="col-1-6"><a href="flavors.html">Flavors</a></div>
-        <div class="col-1-6"><a href="science.html">Science</a></div>
-        <div class="col-1-6"><a href="shoppingCart.html">Cart</a></div>
-        <div class="col-1-6"><a href="reviews.html">Reviews</a></div>
-        <div class="col-1-6"><a href="nutrition.html">Nutrition</a></div>
+        <div class="col-1-6"><a href="index.html"><img src="nicedude.png" id="logo" alt="nicedude"></img></a></div>
+        <div class="col-1-6" id="link"><a href="flavors.html">Flavors</a></div>
+        <div class="col-1-6" id="link"><a href="science.html">Science</a></div>
+        <div class="col-1-6" id="link"><a href="shoppingCart.html">Cart</a></div>
+        <div class="col-1-6" id="link"><a href="reviews.html">Reviews</a></div>
+        <div class="col-1-6" id="link"><a href="nutrition.html">Nutrition</a></div>
     </div>
 
     <div class="row" id="flavors">
-        <p>All Flavors</p>
+
+        <div class="row"><p>All Flavors</p></div>
         
-        <div class="row-1-2">
-            <div class="col-1-5"><a href="strawberry.html">Strawberry</a></div>
-            <div class="col-2-5"><a href="tea.html">Tea</a></div>
-            <div class="col-3-5"><a href="pinaMelon.html">Pina Colada and Watermelon</a></div>
-            <div class="col-4-5"><a href="blueRaspberry.html">Blue Raspberry</a></div>
-            <div class="col-5-5"><a href="lemon.html">Lemon</a></div>
-            </div>
-        <div class="row-1-2">
-            <div class="col-1-5">Lemon</div>
-            <div class="col-2-5">Coconut</div>
-            <div class="col-3-5">Pineapple</div>
-            <div class="col-4-5">Horchata</div>
-            <div class="col-5-5">Green Apple</div>
+        <div class="row">
+            <div class="col-1-5" id="sB"><div class="row"><a href="strawberry.html">Strawberry</a></div></div>
+            <div class="col-1-5" id="tea"><div class="row"><a href="tea.html">Tea</a></div></div>
+            <div class="col-1-5" id="pW"><div class="row"><a href="pinaMelon.html">Pina Colada and Watermelon</a></div></div>
+            <div class="col-1-5" id="bR"><div class="row"><a href="blueRaspberry.html">Blue Raspberry</a></div></div>
+            <div class="col-1-5" id="lemon"><div class="row"><a href="lemon.html">Lemon</a></div></div>
         </div>
+
+        <div class="row">
+            <div class="col-1-5" id="li">lime</div>
+            <div class="col-1-5" id="co">Coconut</div>
+            <div class="col-1-5" id="pi">Pineapple</div>
+            <div class="col-1-5" id="hr">Horchata</div>
+            <div class="col-1-5" id="gA">Green Apple</div>
+        </div>
+
+    </div>
+    <div>
+        <button type="button" id="b1" onClick = "changeBg('butt1')">Red</button>
+        <button type="button" id="b2" onClick = "changeBg('butt2')">Yellow</button>
+        <button type="button" id="b3" onClick = "changeBg('butt3')">Icy</button>
+        <button type="button" id="b4" onClick = "changeBg('butt4')">Reset</button>
+    </div>
+    <div class="row" id="footer">
+        <!-- footer -->
+        <p>Any problems call us at (000)-000-0000</p>
     </div>
 </body>
 </html>

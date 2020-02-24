@@ -3,11 +3,9 @@
 html{
     background: url("pina.png") no-repeat;
     background-size: cover;
-    background-color: rgb(255, 214, 221)
-    ;
+    background-color: rgb(255, 214, 221);
     height: 100%;
     font-family: 'Signika', sans-serif;
-    
 }
 body{
     width: 75%;
@@ -16,6 +14,7 @@ body{
     background: rgb(255, 200, 200);
     box-shadow: 50px 0px 25px rgba(0,0,0,0.5),
                 -50px 0px 25px rgba(0,0,0,0.5);
+    border-radius: 25px;
 }
 h1{
     margin: 0px;
@@ -28,7 +27,7 @@ a{
     color: black;
 }
 #logo{
-    height: 100px;
+    height: 101px;
     width: 100px;
 }
 div{
@@ -58,11 +57,10 @@ div.row{
     padding-top: 38px;
 }
 #nav{
-    background-color: rgb(255, 115, 138)
-    ;
+    background-color: rgb(255, 115, 138);
 }
 .col-1-6:hover{
-    background-color: rgba(255, 208, 0, 0.733);
+    background-color: rgba(255, 225, 94, 0.959);
 }
 
 /* flavor and desc */
@@ -98,7 +96,7 @@ div.row{
     
 }
 section#history{
-    background: radial-gradient(white, rgba(255, 208, 0, 0.733));
+    background: radial-gradient(white, rgba(255, 208, 0, 0.897));
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
     border-width: 2px;
@@ -122,6 +120,7 @@ section#history{
 div#pW{
     padding-top: 7px;
     padding-bottom: 6px;
+    height: 76px;
 }
 div#banner{
     text-align: center;
@@ -134,62 +133,11 @@ div#footer{
     text-align: center;
 }
 button{
-    size: 20px;
-}
-
-button#b1{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
+    background: radial-gradient(white, rgba(255, 208, 0, 0.897));
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
-}
-button#b2{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
-}
-button#b3{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
-}
-button#b4{
-    width: 12%;
-    height: 40px;
-    margin: 10px;
-    border-radius: 25px;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.3) ,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5),rgba(255, 255,255, 0));
-    color: black;
-    font-size: 20px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    padding-right: 45px;
-    box-shadow: 10px 10px rgba(0,0,0,0.5);
-    text-align: center;
+    margin-left: 12px;
 }

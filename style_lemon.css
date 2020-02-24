@@ -18,12 +18,12 @@ h1{
     font-family: 'Questrial', sans-serif;
     color: black;
 }
-a{
+a#links{
     text-decoration: none;
     color: black;
 }
 #logo{
-    height: 97px;
+    height: 98px;
     width: 100px;
 }
 div{
@@ -170,5 +170,12 @@ button#b4{
     font-size: 15px;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
-    background: rgb(27, 27, 25)
+}
+
+
+h5{
+    color: rgb(66, 66, 66);
+    color: rgb(146, 146, 146);
+    color: rgb(116, 116, 116);
+    color: rgb(184, 249, 255);
 }
