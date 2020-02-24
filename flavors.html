@@ -7,7 +7,7 @@
     <title>Flavored Ice Cubes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="flavors.css">
-    <script src="script.js" defer></script>
+    <script src="flavors.js" defer></script>
 </head>
 <body>
     <div class="row" id="banner">
@@ -24,7 +24,8 @@
     </div>
 
     <div class="row" id="flavors">
-        <p>All Flavors</p>
+
+        <div class="row"><p>All Flavors</p></div>
         
         <div class="row">
             <div class="col-1-5" id="sB"><div class="row"><a href="strawberry.html">Strawberry</a></div></div>
@@ -41,6 +42,17 @@
             <div class="col-1-5" id="hr">Horchata</div>
             <div class="col-1-5" id="gA">Green Apple</div>
         </div>
+
+    </div>
+    <div>
+        <button type="button" id="b1" onClick = "changeBg('butt1')">Red</button>
+        <button type="button" id="b2" onClick = "changeBg('butt2')">Yellow</button>
+        <button type="button" id="b3" onClick = "changeBg('butt3')">Icy</button>
+        <button type="button" id="b4" onClick = "changeBg('butt4')">Reset</button>
+    </div>
+    <div class="row" id="footer">
+        <!-- footer -->
+        <p>Any problems call us at (000)-000-0000</p>
     </div>
 </body>
 </html>
