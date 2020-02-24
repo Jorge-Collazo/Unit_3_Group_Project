@@ -14,6 +14,15 @@ function changeStyle(theme){
         document.getElementById("lemon").style.background = "";
         document.getElementById("history").style.background = "";
         document.getElementById("name").style.color = "";
+        document.getElementById("history").style.background = "";
+        document.getElementById("button1").style.background = "#CCCA1A";
+        document.getElementById("button2").style.background = "#CCCA1A";
+        document.getElementById("button3").style.background = "#CCCA1A";
+        document.getElementById("button4").style.background = "#CCCA1A";
+        document.getElementById("button1").style.color = "black";
+        document.getElementById("button2").style.color = "black";
+        document.getElementById("button3").style.color = "black";
+        document.getElementById("button4").style.color = "black";
     }
 
     else if(theme == 'Nuit'){
@@ -22,7 +31,7 @@ function changeStyle(theme){
         // #EAD7A8 -> #A17E27 (50%)
         // #A3A53F -> #51521F (50%)
         
-        
+
     }
 
     else if(theme == 'Forest'){
