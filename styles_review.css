@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/* basic */
+html{
+    background-size: 150%;
+    background-color: white;
+    height: 100%;
+    font-family: 'Signika', sans-serif;
+    border-radius: 25px;
+}
+body{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgb(255, 200, 200);
+    box-shadow: 50px 0px 25px rgba(0,0,0,0.5),
+                -50px 0px 25px rgba(0,0,0,0.5);
+    border-radius: 25px;
+}
+h1{
+    margin: 0px;
+    padding: 50px 0px 50px 0px;
+    font-family: 'Questrial', sans-serif;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+div{
+    /* border: 2px solid rgba(0, 255, 0, 0.5); */
+    display: block;
+    box-sizing: border-box;
+}
+.row::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+div.row{
+    clear: both;
+}
+
+/* banner */
+div#banner{
+    text-align: center;
+    font-size: 40pt;
+    background: url("ice_banner.png") no-repeat;
+    background-size: cover;
+
+}
+
+/* footer */
+div#footer{
+    text-align: center;
+}
+
+/* top nav */
+.col-1-6{
+    float: left;
+    width: 16%;
+    text-align: center;
+    font-size: 20pt;
+    margin-right: 7px;
+}
+.col-1-6#link{
+    padding-bottom: 38px;
+    padding-top: 38px;
+}
+#nav{
+    background-color: red;
+}
+.col-1-6:hover{
+    animation: shine 1.2s;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+/* review */
+#rev1, #rev3{
+    background-color: white;
+    padding-left: 75px;
+    padding-right: 400px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20pt;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+}
+#rev2{
+    background-color: lightgreen;
+    padding-left: 400px;
+    padding-right: 75px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20pt;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+}
