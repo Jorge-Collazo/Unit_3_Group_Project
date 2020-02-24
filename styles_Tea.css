@@ -29,7 +29,7 @@ h2{
     text-align: center;
 }
 #logo{
-    height: 97px;
+    height: 98px;
     width: 100px;
 }
 div{
@@ -55,7 +55,7 @@ div.row{
     /* border: black solid 1px; */
 }
 .col-1-6:hover{
-    animation: shine 1.4s infinite;
+    animation: shine 1.4s;
 }
 .col-1-6#link{
     width: 16.8%;
