@@ -1,29 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Flavored Ice Cubes</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles_blueRasp.css"/>
+    <link rel="stylesheet" href="animations.css"/>
+    <script src="roseButtons.js" defer></script>
+    <script src="info.js" defer></script>
+    <script src="cart.js" defer></script>
 </head>
 <body>
-    <h1>Nice Dude</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="strawberry.html">Strawberry</a></li>
-            <li><a href="tea.html">Tea</a></li>
-            <li><a href="pinaMelon.html">Pina Colada and Watermelon</a></li>
-            <li><a href="blueRaspberry.html">Blue Raspberry</a></li>
-            <li><a href="lemon.html">Lemon</a></li>
-            <li><a href="flavors.html">All Flavors</a></li>
-            <li><a href="science.html">Science behind it</a></li>
-            <li><a href="shoppingCart.html">Shopping Cart - online order</a></li>
-            <li><a href="reviews.html">User Reviews</a></li>
-            <li><a href="nutrition.html">Nutrition Page</a></li>
-        </ul>
-    </nav>
+    <div class="row" id="banner">
+        <h1>N-ice Dude</h1>
+    </div>
+
+    <div class="row" id="nav">
+        <div class="col-1-6"><a href="index.html"><img src="nicedude.png" id="logo" alt="nicedude"></img></a></div>
+        <div class="col-1-6" id="link"><a href="flavors.html">Flavors</a></div>
+        <div class="col-1-6" id="link"><a href="science.html">Science</a></div>
+        <div class="col-1-6" id="link"><a href="shoppingCart.html">Cart</a></div>
+        <div class="col-1-6" id="link"><a href="reviews.html">Reviews</a></div>
+        <div class="col-1-6" id="link"><a href="nutrition.html">Nutrition</a></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-1-1" id="cart">
+            
+        </div>
+    </div>
+
+    <div class="row" id="flavors">
+        <!-- top flavors nav -->
+        <nav>
+            <div id="sB" class="col-1-5">
+                <div class="row"><a href="strawberry.html">Strawberry</a></div>
+            </div>
+            <div id="tea" class="col-1-5">
+                <div class="row"><a href="tea.html">Tea</a></div>
+            </div>
+            <div id = "pW" class="col-1-5" id="pina">
+                <div class="row"><a href="pinaMelon.html">Pina Colada and Watermelon</a></div>
+            </div>
+            <div id="bR" class="col-1-5">
+                <div class="row"><a href="blueRaspberry.html">Blue Raspberry</a></div>
+            </div>
+            <div id="lemon" class="col-1-5">
+                <div class="row"><a href="lemon.html">Lemon</a></div>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="row" id="footer">
+        <!-- footer -->
+        <p>This is for the footer God knows what's going here</p>
+    </div>
+    <button type="button" onClick = "changeStyle('black')">Black</button>
+    <button type="button" onClick = "changeStyle('blue')">Blue</button>
+    <button type="button" onClick = "changeStyle('navy')">Navy</button>
+    <button type="button" onClick = "changeStyle('royalBlue')">Royal Blue</button>
 </body>
 </html>
