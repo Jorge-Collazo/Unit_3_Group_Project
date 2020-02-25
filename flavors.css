@@ -61,12 +61,13 @@ div.row{
     padding-bottom: 38px;
     padding-top: 38px;
 }
+.col-1-6:hover{
+    animation: shine 1.2s;
+}
 #nav{
     background-color: rgba(42, 255, 237, 0.986);
 }
-.col-1-6:hover{
-    background-color: rgb(83, 186, 255);
-}
+
 #sB:hover, #tea:hover, #pW:hover, #bR:hover, #lemon:hover{
     background-color: rgb(83, 186, 255);
 }

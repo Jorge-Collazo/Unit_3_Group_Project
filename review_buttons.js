@@ -24,3 +24,35 @@ function loadMore(){
     }
     
 }
+
+function changeStyle(theme){
+    if(theme == "iceCream"){
+        document.body.style.background = "#c0fff4";
+        document.getElementById("nav").style.background = "#d1d1f6";
+        document.getElementById("footer").style.background = "#d1d1f6";
+        document.getElementById("rev1").style.background = "#ffc0cb";
+        document.getElementById("rev2").style.background = "#ffc0cb";
+        document.getElementById("rev3").style.background = "#ffc0cb";
+    }else if(theme == "pale"){
+        document.body.style.background = "#d0ecf4";
+        document.getElementById("nav").style.background = "#a1adba";
+        document.getElementById("footer").style.background = "#a1adba";
+        document.getElementById("rev1").style.background = "#95cfd0";
+        document.getElementById("rev2").style.background = "#95cfd0";
+        document.getElementById("rev3").style.background = "#95cfd0";
+    }else if(theme == "tang"){
+        document.body.style.background = "#ebaca2";
+        document.getElementById("nav").style.background = "#ce6a6b";
+        document.getElementById("footer").style.background = "#ce6a6b";
+        document.getElementById("rev1").style.background = "salmon";
+        document.getElementById("rev2").style.background = "salmon";
+        document.getElementById("rev3").style.background = "salmon";
+    }else if(theme == "ice"){
+        document.body.style.background = "";
+        document.getElementById("nav").style.background = "";
+        document.getElementById("footer").style.background = "";
+        document.getElementById("rev1").style.background = "";
+        document.getElementById("rev2").style.background = "";
+        document.getElementById("rev3").style.background = "";
+    }
+}
