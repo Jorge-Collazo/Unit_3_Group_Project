@@ -123,6 +123,9 @@ p{
 #lemon{
     background: url("lemons.png") no-repeat;
 }
+#lemon a{
+    color: black;
+}
 #li{
     background: url("lime.png") no-repeat;
     color: black;
