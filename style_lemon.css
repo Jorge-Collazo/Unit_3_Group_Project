@@ -2,8 +2,8 @@
 
 html{
     background: url("lemons.png") no-repeat rgba(252, 255, 77, 0.945);
-    background-size: cover;
-    height: 140%;
+    background-size: 140%;
+    height: 100%;
     font-family: 'Signika', sans-serif;
 }
 body{
@@ -170,12 +170,4 @@ button#b4{
     font-size: 15px;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
-}
-
-
-h5{
-    color: rgb(66, 66, 66);
-    color: rgb(146, 146, 146);
-    color: rgb(116, 116, 116);
-    color: rgb(184, 249, 255);
 }
