@@ -1,3 +1,3 @@
-item = ["strawberry", "tealeaves", "pina", "blueraspberries", "lemons"];
-itemDescription = ["Strawberry", "Tea", "Pina Colada Watermelon", "Blue Raspberry", "Lemon"];
-itemPrice = [4.99, 4.99, 4.99, 4.99, 4.99]
+item = ["strawberry", "tealeaves", "pina", "blueraspberries", "lemons", "greenA", "coconut", "horchata"];
+itemDescription = ["Strawberry", "Tea", "Pina Colada Watermelon", "Blue Raspberry", "Lemon", "Green Apple", "Coconut", "Horchata"];
+itemPrice = [4.99, 4.99, 4.99, 4.99, 4.99, 4.99, 4.99, 4.99, 4.99]

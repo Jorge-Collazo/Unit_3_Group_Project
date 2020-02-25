@@ -10,6 +10,7 @@ for(var i=0; i<item.length; i++){
    //orderTotal += itemCost;
 }
 //finishing table and displaying it
-cartHTML += "<tr> <td colspan='4'>Subtotal</td> <td>$" + orderTotal + "</td> </tr> </table>";
+//cartHTML += "<tr> <td colspan='4'>Subtotal</td> <td>$" + orderTotal + "</td> </tr> </table>";
+cartHTML += "<tr> <td colspan='2'>Call 000-000-0000 to order your N-ice Dude Ice now!</td> </tr> </table>";
 document.getElementById("cart").innerHTML = cartHTML;
 console.log(cartHTML);
