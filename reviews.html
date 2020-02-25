@@ -23,13 +23,20 @@
     </div>
     <div class="row">
         <h2>Hear from some of our satisfied customers...</h2>
+        <button type="button" onclick="changeStyle('iceCream')">Ice Cream</button>
+        <button type="button" onclick="changeStyle('pale')">Pale</button>
+        <button type="button" onclick="changeStyle('tang')">Tangerine</button>
+        <button type="button" onclick="changeStyle('ice')">Ice</button>
     </div>
     <div class="row">
         <div class="row" id="rev1">N-ice Dude ice has made staying hydrated taste better!</div>
         <div class="row" id="rev2">My kids will actually choose water over soda during dinner now thanks to N-ice Dude.</div>
         <div class="row" id="rev3">I just fill a pitcher with N-ice Dude ice and have it ready in the fridge at anytime.</div>
-        <div class="row" id="load"><button type="button" onClick="loadMore()">Load more</button></div>
+        <div class="row" id="load"><button id="loadBtn" type="button" onClick="loadMore()">Load more</button></div>
     </div>
-    <footer class="row"></footer>
+    <div class="row" id="footer">
+        <!-- footer -->
+        <p>Any problems call us at (000)-000-0000</p>
+    </div>
 </body>
 </html>
