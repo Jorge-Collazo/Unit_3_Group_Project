@@ -18,13 +18,22 @@ body{
 }
 h1{
     margin: 0px;
-    padding: 50px 0px 50px 0px;
+    padding: 30px 0px 30px 0px;
     font-family: 'Questrial', sans-serif;
     color: black;
 }
 a{
     text-decoration: none;
     color: black;
+}
+p#des{
+    font-size: 20pt;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+}
+p{
+    text-align: center;
 }
 #logo{
     height: 101px;
@@ -73,7 +82,7 @@ div.row{
     font-size: 40pt;
     padding-left: 10px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     letter-spacing: 10px;
     font-family: 'Lobster', cursive;
     color: rgb(255, 115, 138);
@@ -134,10 +143,14 @@ div#footer{
 }
 button{
     background: radial-gradient(white, rgba(255, 208, 0, 0.897));
-    padding: 20px 20px 20px 20px;
+    padding: 10px 20px 10px 20px;
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
-    margin-left: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15pt;
 }
