@@ -57,6 +57,9 @@ div.row{
 .col-1-6 a{
     color: black;
 }
+.col-1-6:hover{
+    animation: shine 1.2s;
+}
 .col-1-6#link{
     padding-bottom: 38px;
     padding-top: 38px;
@@ -64,10 +67,6 @@ div.row{
 #nav{
     background-color: rgba(42, 255, 237, 0.986);
 }
-.col-1-6:hover{
-    background-color: rgb(83, 186, 255);
-}
-
 
 /* top 5 flavors */
 #sB, #tea, #pW, #bR, #lemon{
