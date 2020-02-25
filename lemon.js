@@ -4,7 +4,7 @@ function changeStyle(theme){
         document.getElementsByTagName('html')[0].style.background = "url('lemonsDark.png') no-repeat rgb(116, 116, 116)";
         document.getElementsByTagName('html')[0].style.backgroundSize = "cover";
         document.getElementsByTagName('html')[0].style.height = "139%";
-        //document.getElementById("logo") = "url('darkIceBanner.png')";
+        // document.getElementById("logo") = "url('darkIceBanner.png')";
         document.body.style.background = "rgb(13, 13, 13)";
         document.getElementById("nav").style.background = "rgb(116, 116, 116)";
         document.getElementById("sB").style.background = "rgb(116, 116, 116)";
