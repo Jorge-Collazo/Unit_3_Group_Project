@@ -140,6 +140,12 @@ p{
 #gA{
     background: url("greenA.png") no-repeat;
 }
+#sB a, #tea a, #pW a, #bR a, #lemon a, #li, #co, #pi, #hr, #gA{
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; 
+
+}
 
 /* buttons */
 .col-1-4{
