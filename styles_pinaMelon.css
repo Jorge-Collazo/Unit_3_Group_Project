@@ -124,6 +124,7 @@ section#history{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 25px;
+    margin-top: 2%;
     background-color: rgb(255, 115, 138);
 }
 div#pW{
@@ -148,9 +149,9 @@ button{
     border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 15pt;
 }
