@@ -17,7 +17,7 @@ function changeStyleBR(color){
         }
         x[0].style.background = "white";
         x[0].style.color = "black";
-        document.body.style.fontFamily = "fantasy";
+        //document.body.style.fontFamily = "fantasy";
         document.getElementById("flavors").style.fontSize = "20pt";
         document.getElementById("flavors").style.border = "outset gray 3px";
         document.getElementById("nav").style.border = "outset gray 3px";
@@ -82,6 +82,7 @@ function changeStyleBR(color){
 function changeStyleSC(color){
     if (color == "black"){
         document.body.style.background = "black";
+        document.body.style.color = "white";
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
         x[i].style.border = "outset gray 3px";
@@ -91,15 +92,16 @@ function changeStyleSC(color){
         }
         x[0].style.background = "white";
         x[0].style.color = "black";
-        document.body.style.fontFamily = "fantasy";
+        document.body.style.fontFamily = "timesNewRoman";
         document.getElementById("flavors").style.fontSize = "20pt";
         document.getElementById("flavors").style.border = "outset gray 3px";
         document.getElementById("nav").style.border = "outset gray 3px";
         document.getElementById("history").style.border = "outset gray 3px";
         document.getElementById("info").style.border = "outset gray 3px";
     }
-    else if (color == "blue"){
-        document.body.style.background = "rgb(0,50,185)";
+    else if (color == "white"){
+        document.body.style.background = "whitesmoke";
+        document.body.style.color = "black";
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
         x[i].style.border = "dotted gray 3px";
@@ -109,14 +111,16 @@ function changeStyleSC(color){
         }
         x[1].style.background = "white";
         x[1].style.color = "black";
-        //document.body.style.fontFamily = "cursive";
+        document.body.style.fontFamily = "sans-serif";
         document.getElementById("flavors").style.border = "dotted gray 3px";
+        document.getElementById("flavors").style.background = "white"
+        document.getElementById("flavors").style.color ="black"
         document.getElementById("nav").style.border = "dotted gray 3px";
         document.getElementById("history").style.border = "dotted gray 3px";
         document.getElementById("info").style.border = "dotted gray 3px";
     }
-    else if (color == "navy"){
-        document.body.style.background = color;
+    else if (color == "teal"){
+        document.body.style.background = "rgb(135,240,215)";
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
         x[i].style.border = "ridge gray 3px";
@@ -132,8 +136,9 @@ function changeStyleSC(color){
         document.getElementById("history").style.border = "ridge gray 3px";
         document.getElementById("info").style.border = "ridge gray 3px";
     }
-    else if (color == "royalBlue"){
+    else if (color == "lightBlue"){
         document.body.style.background = color;
+        document.body.style.color = "black";
         var x = document.querySelectorAll("button");
         for (var i = 0; i < x.length; i++) {
         x[i].style.border = "inset gray 3px";
