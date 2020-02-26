@@ -55,6 +55,9 @@ div.row{
     padding-bottom: 38px;
     padding-top: 38px;
 }
+.col-1-6:hover{
+    animation: shine 1.4s; 
+}
 #nav{
     background-color: whitesmoke;
 }
@@ -99,6 +102,7 @@ div.row{
 div#banner{
     text-align: center;
     font-size: 30pt;
+    background: url(ice_banner.png) no-repeat;
 }
 div#footer{
     text-align: center;
