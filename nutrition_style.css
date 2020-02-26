@@ -1,9 +1,9 @@
 @charset "utf-8";
 /*General*/
 html{
-    background: url("iceCube.png") no-repeat #3D82AB;
+    background: url("iceCube.png") repeat #3D82AB;
     background-size: cover;
-    height: 130%;
+    height: 193%;
     font-family: 'Signika', sans-serif;
 }
 body{
@@ -18,6 +18,17 @@ h1{
     font-family: 'Questrial', sans-serif;
     color: black;
 }
+#title{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    height: 98px;
+    width: 100px;
+}
 /*Banner*/
 div#banner{
     text-align: center;
@@ -29,6 +40,9 @@ div#banner{
 #logo{
     height: 98px;
     width: 100px;
+}
+div.col-1-6{
+    width: 16%;
 }
 .col-1-6{
     padding-top: 8px;
@@ -63,7 +77,7 @@ div{
 div.row{
     clear: both;
 }
-/**/
+/*Images*/
 #title{
     font-size: 3em;
     text-align: center;
@@ -75,9 +89,7 @@ div.row{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 25px;
-    background-color: rgb(83, 186, 255);
 }
-
 div#banner{
     text-align: center;
     font-size: 40pt;
@@ -134,11 +146,7 @@ p{
 #gA{
     background: url("greenA.png") no-repeat;
 }
-#sB a, #tea a, #pW a, #bR a, #lemon a, #li, #co, #pi, #hr, #gA{
-    color:white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black; 
-}
+
 .col-1-3{
     float: left;
     width: 33%;
@@ -149,19 +157,33 @@ p{
 }
 #info{
     background: radial-gradient(white, #84C0E9);
-    padding: 20px 20px 20px 20px;
+    padding: 15px 15px 15px 15px;
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
+    font-size: 18px;
+    height: 500px;
 }
-#benifites{
-    background: radial-gradient(white, #A9DFED);
-    padding: 20px 20px 20px 20px;
+#nutrients{
+    background: #A9DFED;
+    padding: 15px 15px 15px 15px;
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
+    font-size: 18px;
+    height: 500px;
+}
+#benefits{
+    background: radial-gradient(white, #84C0E9);
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
+    font-size: 18px;
+    height: 500px;
 }
 /*buttons*/
 button#bStrawberry{
@@ -274,22 +296,57 @@ button#bGreenApple{
     border-color: black;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
 }
-button#b{
-    width: 80px;
-    height: 40px;
+button#b1{
+    width: 90px;
+    height: 50px;
     margin: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
+    background: #EBD6EB;
 }
+button#b2{
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    color: black;
+    font-size: 13px;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
+    text-align: center;
+    background: #EBD6EB;
+}
+button#b3{
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    color: black;
+    font-size: 13px;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
+    text-align: center;
+    background: #EBD6EB;
+}
+button#b4{
+    width: 90px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 30px;
+    color: black;
+    font-size: 13px;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
+    text-align: center;
+    background: #EBD6EB;
+}
+
 h5{
     /*Blooming Blossoms*/
     color: #CCD3D9;
     color: #FED5D9 ;
     color: #7E212C;
-    color: #321E17;
+    color: #3a1717;
 }
 h5{
     /*Terracotta Marble*/
