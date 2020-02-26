@@ -1,14 +1,16 @@
 @charset "utf-8";
 
 html{
-    background: azure;
+    background: url(iceWall.png)no-repeat skyblue;
+    background-size: 120%;
     height: 100%;
+    font-family: 'Signika', sans-serif;
 }
 body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background: cornsilk;
+    background: #FCFCFF;
     box-shadow: 50px 0px 25px rgba(0,0,0,0.5),
                 -50px 0px 25px rgba(0,0,0,0.5);
 }
@@ -24,6 +26,13 @@ h1{
 }
 h2{
     text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #logo{
     height: 98px;
@@ -59,7 +68,7 @@ div.row{
     margin-right: 0px;
 }
 #nav{
-    background-color: greenyellow;
+    background-color: #ABD1F3;
 }
 .col-1-5{
     float: left;
@@ -68,7 +77,7 @@ div.row{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 27px;
-    background-color: #EAD7A8;
+    background-color: #ABD1F3;
 }
 #pW{
     padding-top: 7px;
