@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="nutrition_style.css" rel="stylesheet">
-    <script src="nutrition_script.js" defer></script>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="animations.css" rel="stylesheet"/>
+    <link href="nutrition_style.css" rel="stylesheet"/>
+    <script src="nutrition_scrpt.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
@@ -21,6 +22,10 @@
         <div class="col-1-6" id="link"><a href="reviews.html">Reviews</a></div>
         <div class="col-1-6" id="link"><a href="nutrition.html">Nutrition</a></div>
     </div>
+    
+    <div class="row" id="banner">
+        <h1 #brand>N-ice Dude</h1>
+    </div>
 
     <br>
     <div class="row" id="title">Nutrition</div>
@@ -30,56 +35,46 @@
         <div class="row">
             <div class="col-1-5" id="sB">
                 <div class="row"><a href="strawberry.html"><br>Strawberry</a></div>
-                <div class="row"><button type="button" id="bStrawberry">Nutrients</button></div>
-
-    <div class="row" id="banner">
-        <h1>N-ice Dude</h1>
-    </div>
-    
-    <div class="row">
-        <div class="col-1-2">
-            <div class="row">
-                <img src="single_Strawberry.png" alt="" height="200px" width="200px">
-                <button>#1 Strawberry</button>
+                <div class="row"><button type="button" id="bStrawberry" onClick = "changeStyle('yes')">Nutrients</button></div>
             </div>
             <div class="col-1-5" id="tea">
                 <div class="row"><a href="tea.html"><br>Tea</a></div>
-                <div class="row"><button type="button" id="bTea">Nutrients</button></div>
+                <div class="row"><button type="button" id="bTea" onClick = "changeStyle('yes')">Nutrients</button></div>
             </div>
             <div class="col-1-5" id="pW">
                 <div class="row"><a href="pinaMelon.html">Pina Colada and Watermelon</a></div>
-                <div class="row"><button type="button" id="bPinaColada">Nutrients</button></div>
+                <div class="row"><button type="button" id="bPinaColada" onClick = "changeStyle('yes')">Nutrients</button></div>
             </div>
             <div class="col-1-5" id="bR">
                 <div class="row"><a href="blueRaspberry.html"><br>Blue Raspberry</a></div>
-                <div class="row"><button type="button" id="bBlueRaspberry">Nutrients</button></div>
+                <div class="row"><button type="button" id="bBlueRaspberry" onClick = "changeStyle('yes')">Nutrients</button></div>
             </div>
             <div class="col-1-5" id="lemon">
                 <div class="row"><a href="lemon.html"><br>Lemon</a></div>
-                <div class="row"><button type="button" id="bLemon">Nutrients</div>
+                <div class="row"><button type="button" id="bLemon" onClick = "changeStyle('yes')">Nutrients</div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-1-5" id="li">
-                <div class="row">lime</div>
-                <div class="row"><button type="button" id="bLime">Nutrients</div>
+                <div class="row">Lime</div>
+                <div class="row"><button type="button" id="bLime" onClick = "changeStyle('yes')">Nutrients</div>
             </div>
             <div class="col-1-5" id="co">
                 <div class="row">Coconut</div>
-                <div class="row"><button type="button" id="bCoconut">Nutrients</div>
+                <div class="row"><button type="button" id="bCoconut" onClick = "changeStyle('yes')">Nutrients</div>
             </div>
             <div class="col-1-5" id="pi">
                 <div class="row">Pineapple</div>
-                <div class="row"><button type="button" id="bPineapple">Nutrients</div>
+                <div class="row"><button type="button" id="bPineapple" onClick = "changeStyle('yes')">Nutrients</div>
             </div>
             <div class="col-1-5" id="hr">
                 <div class="row">Horchata</div>
-                <div class="row"><button type="button" id="bHorchata">Nutrients</div>
+                <div class="row"><button type="button" id="bHorchata" onClick = "changeStyle('yes')">Nutrients</div>
             </div>
             <div class="col-1-5" id="gA">
                 <div class="row">Apple</div>
-                <div class="row"><button type="button" id="bGreenApple">Nutrients</div>
+                <div class="row"><button type="button" id="bGreenApple" onClick = "changeStyle('yes')">Nutrients</div>
             </div>
         </div>
     </div>
@@ -87,31 +82,30 @@
 <br>
     <div class="row">
         <div class="col-1-3" id="info">
+            <h2>Information</h2>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et 
-            dolore magnam aliquam quaerat voluptatem.
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
         </div>
 
         <div class="col-1-3" id="nutrients">
-            <img src="greenA.png" alt="gA">
+            <img src="nutrients.png" alt="gA" width="300px" height="">
         </div>
 
-        <div class="col-1-3" id="benifites">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
-            excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
-            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus 
-            id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+        <div class="col-1-3" id="benefits">
+            <h2>Benefits</h2>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+        excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+        Et harum quidem rerum facilis est et expedita distinctio.
         </div>
     </div>
 
     <div class="row">
         <div class="col-1-6"></div>
-        <div class="col-1-6"><button type="button" id="b" onClick = "changeStyle('Blooming Blossoms')">Blooming Blossoms</button></div>
-        <div class="col-1-6"><button type="button" id="b" onClick = "changeStyle('Terracotta Marble')">Terracotta Marble</button></div>
-        <div class="col-1-6"><button type="button" id="b" onClick = "changeStyle('Vivid Overlays')">Vivid Overlays</button></div>
-        <div class="col-1-6"><button type="button" id="b" onClick = "changeStyle('Northern Lights')">Northern Lights</button></div>
+        <div class="col-1-6"><button type="button" id="b1" onClick = "changeStyle('Blooming Blossoms')">Blooming Blossoms</button></div>
+        <div class="col-1-6"><button type="button" id="b2" onClick = "changeStyle('Foggy Landscapes')">Foggy Landscapes</button></div>
+        <div class="col-1-6"><button type="button" id="b3" onClick = "changeStyle('Vivid Overlays')">Vivid Overlays</button></div>
+        <div class="col-1-6"><button type="button" id="b4" onClick = "changeStyle('Northern Lights')">Northern Lights</button></div>
         <div class="col-1-6"></div>
     </div>
 </body>
