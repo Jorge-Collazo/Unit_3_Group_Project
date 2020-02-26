@@ -2,18 +2,18 @@
 function changeStyle(theme){
     if(theme == "Blooming Blossoms"){
         document.body.style.background = "#7E212C";
-        document.getElementById("nav").style.background = "#3a1717";
+        document.getElementById("nav").style.background = "#9e0000";
         document.getElementById("info").style.background = "radial-gradient(white, #FED5D9)";
         document.getElementById("benefits").style.background = "radial-gradient(white, #FED5D9)";
         document.getElementById("nutrients").style.background = "#CCD3D9";
         document.getElementById("title").style.color = "";
-        document.getElementById("b1").style.background = "#3a1717";
+        document.getElementById("b1").style.background = "#9e0000";
         document.getElementById("b1").style.color = "white";
-        document.getElementById("b2").style.background = "#3a1717";
+        document.getElementById("b2").style.background = "#9e0000";
         document.getElementById("b2").style.color = "white";
-        document.getElementById("b3").style.background = "#3a1717";
+        document.getElementById("b3").style.background = "#9e0000";
         document.getElementById("b3").style.color = "white";
-        document.getElementById("b4").style.background = "#3a1717";
+        document.getElementById("b4").style.background = "#9e0000";
         document.getElementById("b4").style.color = "white";
     }else if(theme == "Foggy Landscapes"){
         document.body.style.background = "#030923";
