@@ -27,6 +27,7 @@ function changeStyle(theme){
     }else if(theme == "Ice"){
         document.getElementsByTagName('html')[0].style.background = ""
         document.body.style.background = "rgb(159, 228, 255)";
+        document.getElementById("banner").style.background = ""
         document.getElementById("nav").style.background = "rgb(224, 252, 255)";
         document.getElementById("sB").style.background = "rgb(224, 252, 255)";
         document.getElementById("tea").style.background = "rgb(224, 252, 255)";
@@ -46,6 +47,7 @@ function changeStyle(theme){
     }else if(theme == "Summer"){
         document.getElementsByTagName('html')[0].style.background = ""
         document.body.style.background = "rgb(255, 237, 180)";
+        document.getElementById("banner").style.background = ""
         document.getElementById("nav").style.background = "rgb(162, 247, 250)";
         document.getElementById("sB").style.background = "rgb(162, 247, 250)";
         document.getElementById("tea").style.background = "rgb(162, 247, 250)";
@@ -65,6 +67,7 @@ function changeStyle(theme){
     }else if(theme == "Return"){
         document.getElementsByTagName('html')[0].style.background = ""
         document.body.style.background = "";
+        document.getElementById("banner").style.background = ""
         document.getElementById("nav").style.background = "";
         document.getElementById("sB").style.background = "";
         document.getElementById("tea").style.background = "";
