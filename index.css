@@ -68,8 +68,64 @@ div.row{
     background-color: rgba(42, 255, 237, 0.986);
 }
 
-/* top 5 flavors */
+/* flavors */
+a{
+    color: black;
+}
+#flavors{
+    text-align: center;
+}
+h2{
+    font-size: 24pt;
+    text-align: center;
+}
 #sB, #tea, #pW, #bR, #lemon{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 36pt;
+}
+#sB a, #tea a, #pW a, #bR a, #lemon a{
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; 
+
+}
+#sB{
+    background: url("strawberry.png") no-repeat;
+    background-size: 150%;
+}
+#tea{
+    background: url("tealeaves.png") no-repeat;
+}
+#pW{
+    background: url("pW_banner1.png") no-repeat;
+}
+#bR{
+    background: url("blue_rasp.jpg") no-repeat;
+    background-size: 100%;
+}
+#lemon{
+    background: url("lemons.png") no-repeat;
+}
+
+/* banner */
+div#banner{
+    text-align: center;
+    font-size: 40pt;
+    background: url("ice_banner.png") no-repeat;
+    background-size: cover;
+
+}
+
+/* footer */
+div#footer{
+    text-align: center;
+    padding-top: 5px;
+    background-color: rgba(42, 255, 237, 0.986);
+}
+
+/* top 5 flavors */
+/* #sB, #tea, #pW, #bR, #lemon{
     width: 20%;
     text-align: center;
     font-size: 20pt;
@@ -112,4 +168,4 @@ p{
 }
 .col-1-5{
     color: white;
-}
+} */

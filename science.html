@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="animations.css" rel="stylesheet" >
+    <link href="styles_Science.css" rel="stylesheet"/>
     <script src="script.js" defer></script>
+    <script src="scienceButtons.js" defer></script>
 </head>
 <body>
     <h1>Nice Dude</h1>
@@ -26,7 +29,52 @@
     <p>
         Here at N-ice Dude, we make it our aim to always be revolutionizing even the most 
         simple of objects. Our latest business entry, our Ice Cubes, filled with all-natural 
-        flavors that will completely change your drink after dropping a couple of cubes into it.
+        flavors that will completely change your drink after dropping just a single cube into it.
+        Currently, at N-ice Dude we have a selection of ten exuberant flavors, but don't worry, if 
+        a flavor you want isn't available, know that we are constantly in development of new flavors 
+        and you will be able to vote on our social media pages for a chance to get your flavor featured! 
+        <br>
+        <br>
+        N-ice Dude's Ice Cubes are simply cooled cubes that are infused with your flavor of choice. With the purpose 
+        of not only cooling your drink, but giving it a unexpected burst of flavor you're sure to enjoy. A single cube can 
+        change the way you drink just about anything, but if you would desire, you could add as many cubes as you may like. 
     </p>
+
+    <br>
+
+    <h2>Interested in a flavor? See our top five!</h2>
+    <div class="row" id="flavors">
+        <!-- top flavors nav -->
+        <nav>
+            <div class="col-1-5" id="sB">
+                <div class="row"><a href="strawberry.html">Strawberry</a></div>
+            </div>
+            <div class="col-1-5" id="tea">
+                <div class="row"><a href="tea.html">Tea</a></div>
+            </div>
+            <div class="col-1-5" id="pW">
+                <div class="row"><a href="pinaMelon.html">Pina Colada and Watermelon</a></div>
+            </div>
+            <div class="col-1-5" id="bR">
+                <div class="row"><a href="blueRaspberry.html">Blue Raspberry</a></div>
+            </div>
+            <div class="col-1-5" id="lemon">
+                <div class="row"><a href="lemon.html">Lemon</a></div>
+            </div>
+        </nav>
+    </div>
+
+    <br>
+
+    <div class="row" id="footer">
+        <!-- footer -->
+        <button type="button" id="button1" onClick = "changeStyle('Original')"> Original </button>
+        <button type="button" id="button2" onClick = "changeStyle('')">  </button>
+        <button type="button" id="button3" onClick = "changeStyle('')">  </button>
+        <button type="button" id="button4" onClick = "changeStyle('')">  </button>
+    </div>
+
+    <br>
+
 </body>
 </html>
