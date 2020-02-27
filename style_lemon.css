@@ -10,7 +10,7 @@ body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background: rgb(255, 248, 143);
+    background: rgb(255, 237, 180);
 }
 h1{
     margin: 0px;
@@ -58,7 +58,7 @@ div.row{
     animation: shine 1.2s;
 }
 #nav{
-    background-color: yellow;
+    background-color: rgb(162, 247, 250);
 }
 /* flavor and desc */
 .col-2-3{
@@ -93,7 +93,7 @@ div.row{
     text-align: center;
 }
 section#history{
-    background: radial-gradient(white, rgb(255, 252, 97));
+    background: radial-gradient(rgb(255, 252, 243), rgb(255, 223, 134));
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
     border-width: 2px;
@@ -108,7 +108,7 @@ section#history{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 25px;
-    background-color: yellow;
+    background: rgb(162, 247, 250);
 }
 #pW{
     padding-top: 7px;
