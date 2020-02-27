@@ -10,7 +10,8 @@ body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background: #37419A;
+    background: #FCFCFF;
+    border-radius: 25px;
 }
 h1{
     margin: 0px;
@@ -19,7 +20,7 @@ h1{
     color: black;
 }
 #title{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a{
     text-decoration: none;
@@ -62,7 +63,7 @@ div.col-1-6{
     animation: shine 1.2s;
 }
 #nav{
-    background-color: #EBD6EB;
+    background-color: #ABD1F3;
 }
 /*Grid styling that isn't actually grid*/
 div{
@@ -156,9 +157,9 @@ p{
     padding-bottom: 25px;
 }
 #info{
-    background: radial-gradient(white, #84C0E9);
-    padding: 15px 15px 15px 15px;
-    border-radius: 20px;
+    background: radial-gradient(white, #C2E0F9);
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
     border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
@@ -166,7 +167,7 @@ p{
     height: 500px;
 }
 #nutrients{
-    background: #A9DFED;
+    background: #DFF7FA;
     padding: 15px 15px 15px 15px;
     border-radius: 20px;
     border-width: 2px;
@@ -176,9 +177,9 @@ p{
     height: 500px;
 }
 #benefits{
-    background: radial-gradient(white, #84C0E9);
-    padding: 15px 15px 15px 15px;
-    border-radius: 20px;
+    background: radial-gradient(white, #C2E0F9);
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
     border-width: 2px;
     border-style: solid;
     box-shadow: 10px 10px rgba(0,0,0,0.5);
@@ -339,33 +340,4 @@ button#b4{
     box-shadow: 10px 10px rgba(0,0,0,0.5);
     text-align: center;
     background: #EBD6EB;
-}
-
-h5{
-    /*Blooming Blossoms*/
-    color: #CCD3D9;
-    color: #FED5D9 ;
-    color: #7E212C;
-    color: #9e0000;
-}
-h5{
-    /*Terracotta Marble*/
-    color: #D8B484;
-    color: #B16B2F;
-    color: #C76331;
-    color: #9A2513;
-}
-h5{
-    /*Vivid Overlays*/
-    color: #A9DFED;
-    color: #EBD6EB ;
-    color: #84C0E9;
-    color: #37419A;
-}
-h5{
-    /*Northern Lights*/
-    color: #91D4C2;
-    color: #45BB89 ;
-    color: #3D82AB;
-    color: #003853;
 }
