@@ -80,9 +80,11 @@ h2{
     text-align: center;
 }
 #sB, #tea, #pW, #bR, #lemon{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     font-size: 36pt;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 #sB a, #tea a, #pW a, #bR a, #lemon a{
     color:white;
