@@ -12,7 +12,6 @@ body{
     margin-left: auto;
     background:rgb(137, 188, 255);
     color:black;
-    font-family: 'Times New Roman', Times, serif;
 }
 a{
     text-decoration: none;
@@ -98,7 +97,7 @@ div.row{
 }
 #pW{
     padding-top: 7px;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
 }
 div#banner{
     text-align: center;
