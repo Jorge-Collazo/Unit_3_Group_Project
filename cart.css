@@ -4,6 +4,7 @@ html{
     background: url("iceWall.png") no-repeat rgba(1, 30, 73, 0.945);
     background-size: 160%;
     height: 100%;
+    font-family: 'Signika', sans-serif;
 }
 body{
     width: 75%;
@@ -13,10 +14,7 @@ body{
     color:black;
     font-family: 'Times New Roman', Times, serif;
 }
-button{
-    border: double gray 3px;
-    height: 20px;
-}
+
 a{
     text-decoration: none;
     color: white;
@@ -30,6 +28,7 @@ h1{
     margin:0px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family:'Questrial', cursive, 'Times New Roman', Times, serif;
 }
 div{
     display: block;
@@ -109,16 +108,4 @@ div#banner{
 div#footer{
     text-align: center;
 }
-/* starting */ 
-#flavors{
-    border: inset gray 3px;
-}
-#nav{
-    border: inset gray 3px;
-}
-#history{
-    border: inset gray 3px;
-}
-#info{
-    border: inset gray 3px;
-}
+
