@@ -10,10 +10,11 @@ body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background: #CCCA1A;
+    background: #47A155;
     box-shadow: 50px 0px 25px rgba(0,0,0,0.5),
                 -50px 0px 25px rgba(0,0,0,0.5);
     /* border: 1.5px solid black; */
+    border-radius: 25px;
 }
 a{
     text-decoration: none;
@@ -65,7 +66,7 @@ div.row{
     margin-right: 0px;
 }
 #nav{
-    background-color: #EAD7A8;
+    background-color: #98c764;
 }
 /* flavor and desc */
 .col-2-3{
@@ -104,11 +105,11 @@ div.row{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 27px;
-    background-color: #EAD7A8;
+    background-color: #98c764;
     /* border: black solid 1px; */
 }
 section#history{
-    background: radial-gradient(white, #A3A53F);
+    background: radial-gradient(#CFB5AC, #9F6D5C);
     padding: 20px 20px 20px 20px;
     border-radius: 20px;
     border-width: 2px;
