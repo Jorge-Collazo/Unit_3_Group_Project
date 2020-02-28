@@ -10,7 +10,7 @@ body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background: lightblue;
+    background: #FCFCFF;
     color:black;
 }
 
@@ -90,7 +90,7 @@ div.row{
     text-align: center;
     font-size: 20pt;
     padding-top: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 27px;
     background-color: #ABD1F3;;
     color:white;
 }
