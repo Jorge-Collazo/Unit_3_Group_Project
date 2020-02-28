@@ -4,6 +4,7 @@ html{
     background: url("iceWall.png") no-repeat rgba(1, 30, 73, 0.945);
     background-size: 160%;
     height: 100%;
+    font-family: 'Signika', sans-serif;
 }
 body{
     width: 75%;
@@ -11,16 +12,11 @@ body{
     margin-left: auto;
     background: lightblue;
     color:black;
-    font-family: 'Times New Roman', Times, serif;
 }
-button{
-    border: double gray 3px;
-    height: 20px;
-}
+
 a{
     text-decoration: none;
-    color: white;
-    text-shadow: gray 2px 3px 3px;
+    color: black;
 }
 #logo{
     height: 100px;
@@ -30,6 +26,7 @@ h1{
     margin:0px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family:'Questrial', cursive, 'Times New Roman', Times, serif;
 }
 div{
     display: block;
@@ -60,7 +57,7 @@ div.row{
     animation: shine 1.4s;
 }
 #nav{
-    background-color: black;
+    background-color: #ABD1F3;;
 }
 /* flavor and desc */
 .col-2-3{
@@ -94,7 +91,7 @@ div.row{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 25px;
-    background-color: black;
+    background-color: #ABD1F3;;
     color:white;
 }
 #pW{
@@ -103,22 +100,10 @@ div.row{
 }
 div#banner{
     text-align: center;
-    font-size: 30pt;
+    font-size: 40pt;
     background: url(ice_banner.png) no-repeat;
 }
 div#footer{
     text-align: center;
 }
-/* starting */ 
-#flavors{
-    border: inset gray 3px;
-}
-#nav{
-    border: inset gray 3px;
-}
-#history{
-    border: inset gray 3px;
-}
-#info{
-    border: inset gray 3px;
-}
+
