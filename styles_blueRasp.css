@@ -1,35 +1,34 @@
 @charset "utf-8";
 
 html{
-    background: url("blueraspberries.png") no-repeat rgba(1, 30, 73, 0.945);
+    background: url("blueraspberries.png") no-repeat rgb(1, 57, 131);
     background-size: cover;
     height: 100%;
+    font-family: 'Signika', sans-serif;
 }
 body{
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    background: royalBlue;
-    color:white;
+    background:rgb(137, 188, 255);
+    color:black;
     font-family: 'Times New Roman', Times, serif;
-}
-button{
-    border: double gray 3px;
-    height: 20px;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     text-shadow: gray 2px 3px 3px;
 }
 #logo{
     height: 100px;
     width: 100px;
 }
+
 h1{
     margin:0px;
     padding-top: 50px;
     padding-bottom: 50px;
+    font-family:'Questrial', cursive, 'Times New Roman', Times, serif;
 }
 div{
     display: block;
@@ -59,7 +58,7 @@ div.row{
     animation: shine 1.4s; 
 }
 #nav{
-    background-color: whitesmoke;
+    background-color:rgb(0, 80, 185);
 }
 /* flavor and desc */
 .col-2-3{
@@ -70,6 +69,7 @@ div.row{
 .col-2-3 h2{
     font-size: 40pt;
     margin-left: 12px;
+    font-family: 'Lobster', cursive;
 }
 .col-2-3 p{
     margin-left: 12px;
@@ -93,7 +93,8 @@ div.row{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 25px;
-    background-color: rgb(170, 170, 170);
+    background-color:rgb(0, 80, 185);
+    color:white;
 }
 #pW{
     padding-top: 7px;
@@ -107,16 +108,12 @@ div#banner{
 div#footer{
     text-align: center;
 }
-/* starting */ 
-#flavors{
-    border: inset gray 3px;
-}
-#nav{
-    border: inset gray 3px;
-}
 #history{
-    border: inset gray 3px;
-}
-#info{
-    border: inset gray 3px;
+    background: radial-gradient(rgb(137, 188, 255), rgb(39, 116, 218));
+    padding: 20px 20px 20px 20px;
+    margin:0px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
 }
