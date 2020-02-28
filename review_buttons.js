@@ -1,8 +1,11 @@
 "use strict";
 
-var rev1 = ["N-ice Dude ice has made staying hydrated taste better!", "I buy one 10-pack of every flavor each week. My dad said I have an issue.", "It tastes good in water, but I just eat them straight out of the ice tray."];
-var rev2 = ["My kids will actually choose water over soda during dinner now thanks to N-ice Dude.", "It makes snowcones easy to make at home. Crushing the ice really helps alleviate my stress.", "Even I get thirsty when I put N-ice Dude ice in my dog's bowl. I'm almost tempted to drink from it myself."];
-var rev3 = ["I just fill a pitcher with N-ice Dude ice and have it ready in the fridge at anytime.", "I have never been more hydrated before in my life! I just can't stop drinking it.", "I use the ice in a bag for bruises. When it melts, I just drink it out of the bag!"];
+var rev1 = ['"N-ice Dude ice has made staying hydrated taste better!" -Diana Winters', '"I buy one 10-pack of every flavor each week. My dad said I have an issue." <br/> -Dani Preston', '"It tastes good in water, but I just eat them straight out of the ice tray." <br/> -Adeline Tate'];
+var rev2 = ['"My kids will actually choose water over soda during dinner now thanks to N-ice Dude." <br/> -Collen John', '"It makes snowcones easy to make at home. Crushing the ice really helps alleviate my stress." <br/> -Orion Rosa', '"Even I get thirsty when I put N-ice Dude ice in my dog\'s bowl. I\'m almost tempted to drink from it myself." <br/> -Katrina Murphy'];
+var rev3 = ['"I just fill a pitcher with N-ice Dude ice and have it ready in the fridge at anytime." <br/> -Lloyd Haden', '"I have never been more hydrated before in my life! I just can\'t stop drinking it." <br/> -Kasey Ewing', '"I use the ice in a bag for bruises. When it melts, I just drink it out of the bag!" <br/> -Bobby Glover'];
+var p1 = ["-Diana Winters", "-Dani Preston", "-Adeline Tate"];
+var p2 = ["-Collen John", "-Orion Rosa", "-Katrina Murphy"];
+var p3 = ["-Lloyd Haden", "-Kasey Ewing", "-Bobby Glover"];
 var i = 1;
 
 function loadMore(){
