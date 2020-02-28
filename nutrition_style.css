@@ -167,8 +167,9 @@ p{
     height: 500px;
 }
 #nutrients{
-    background: #DFF7FA;
-    padding: 15px 15px 15px 15px;
+    background: url("nutrients.png")#DFF7FA;
+    background-size: 95%;
+    padding: 10px 10px 10px 10px;
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
