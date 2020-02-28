@@ -12,12 +12,11 @@ body{
     margin-left: auto;
     background: lightblue;
     color:black;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
     text-shadow: gray 2px 3px 3px;
 }
 #logo{
@@ -59,7 +58,7 @@ div.row{
     animation: shine 1.4s;
 }
 #nav{
-    background-color: black;
+    background-color: #ABD1F3;;
 }
 /* flavor and desc */
 .col-2-3{
@@ -93,7 +92,7 @@ div.row{
     font-size: 20pt;
     padding-top: 20px;
     padding-bottom: 25px;
-    background-color: black;
+    background-color: #ABD1F3;;
     color:white;
 }
 #pW{
