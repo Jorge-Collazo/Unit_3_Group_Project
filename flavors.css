@@ -1,6 +1,7 @@
 @charset "utf-8";
  
 html{
+    background: url(iceWall.png)no-repeat skyblue;
     background-size: cover;
     background-color: skyblue;
     height: 100%;

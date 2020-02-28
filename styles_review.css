@@ -2,6 +2,7 @@
 
 /* basic */
 html{
+    background: url(iceWall.png)no-repeat skyblue;
     background-size: 150%;
     background-color: skyblue;
     height: 100%;
