@@ -1,8 +1,8 @@
 @charset "utf-8";
  
 html{
-    background-size: cover;
-    background: radial-gradient(white, skyblue);
+    background: url(iceWall.png)no-repeat skyblue;
+    background-size: 3000px;
     height: 100%;
     font-family: 'Signika', sans-serif;
 }
