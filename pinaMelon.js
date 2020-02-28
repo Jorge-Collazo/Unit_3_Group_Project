@@ -31,13 +31,13 @@ function changeBg(color){
         document.getElementsByTagName("body")[0].style.background = "rgb(95, 218, 255)";
         document.getElementsByTagName("h2")[0].style.color = "black";
         document.getElementsByTagName("p")[0].style.font = "white";    
-        document.getElementById("nav").style.background = "rgb(255, 251, 231)";
-        document.getElementById("sB").style.background = "rgb(255, 251, 231)";
-        document.getElementById("tea").style.background = "rgb(255, 251, 231)";
-        document.getElementById("pW").style.background = "rgb(255, 251, 231)";
-        document.getElementById("bR").style.background = "rgb(255, 251, 231)";
-        document.getElementById("lemon").style.background = "rgb(255, 251, 231)";
-        document.getElementById("history").style.background = "radial-gradient(white, rgb(255, 251, 231))";
+        document.getElementById("nav").style.background = "rgb(255, 214, 221)";
+        document.getElementById("sB").style.background = "rgb(255, 214, 221)";
+        document.getElementById("tea").style.background = "rgb(255, 214, 221)";
+        document.getElementById("pW").style.background = "rgb(255, 214, 221)";
+        document.getElementById("bR").style.background = "rgb(255, 214, 221)";
+        document.getElementById("lemon").style.background = "rgb(255, 214, 221)";
+        document.getElementById("history").style.background = "radial-gradient(white, rgb(255, 214, 221))";
     }
     if (color == "butt4"){
         document.getElementsByTagName("body")[0].style.background = "";
