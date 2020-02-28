@@ -1,7 +1,7 @@
 @charset "utf-8";
 /*General*/
 html{
-    background: url("iceCube.png") repeat #3D82AB;
+    background: url("iceWall.png") repeat #3D82AB;
     background-size: cover;
     height: 193%;
     font-family: 'Signika', sans-serif;
