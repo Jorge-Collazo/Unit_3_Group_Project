@@ -3,7 +3,7 @@
 html{
     background: url("lemons.png") no-repeat rgba(252, 255, 77, 0.945);
     background-size: cover;
-    height: 139%;
+    height: 131%;
     font-family: 'Signika', sans-serif;
 }
 body{
@@ -11,6 +11,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     background: rgb(255, 237, 180);
+    border-radius: 25px;
 }
 h1{
     margin: 0px;
